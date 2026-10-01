@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your creative journey with a visually stunning portfolio designed for students, highlighting web development and UI/UX design skills.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
