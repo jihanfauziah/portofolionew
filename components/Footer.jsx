@@ -1,10 +1,10 @@
 'use client';
 
 import Starburst from './Starburst';
-import { portfolioData } from '../data/portfolio';
+import { portofolioData } from '../data/portofolio';
 
 export default function Footer() {
-  const { personal, contact, footer } = portfolioData;
+  const { personal, contact, footer } = portofolioData;
 
   return (
     <footer className="footer-wrap">

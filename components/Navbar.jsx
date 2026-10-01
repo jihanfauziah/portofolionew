@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Starburst from './Starburst';
-import { portfolioData } from '../data/portfolio';
+import { portofolioData } from '../data/portofolio';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,17 +24,17 @@ export default function Navbar() {
         {/* Brand Monogram */}
         <a href="#top" className="navbar-brand" onClick={closeMenu}>
           <span className="navbar-brand-badge">
-            <span className="navbar-brand-text">{portfolioData.personal.monogram}</span>
+            <span className="navbar-brand-text">{portofolioData.personal.monogram}</span>
           </span>
           <div className="navbar-brand-info">
-            <span className="navbar-brand-name">{portfolioData.personal.name}</span>
-            <span className="navbar-brand-role">{portfolioData.personal.role.split('/')[0]}</span>
+            <span className="navbar-brand-name">{portofolioData.personal.name}</span>
+            <span className="navbar-brand-role">{portofolioData.personal.role.split('/')[0]}</span>
           </div>
         </a>
 
         {/* Desktop Navigation Links */}
         <nav className="navbar-nav-desktop" aria-label="Main Navigation">
-          {portfolioData.navigation.map((item) => (
+          {portofolioData.navigation.map((item) => (
             <a key={item.label} href={item.href} className="navbar-nav-link">
               {item.label}
             </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
         aria-label="Mobile Navigation"
       >
         <div className="navbar-mobile-inner">
-          {portfolioData.navigation.map((item) => (
+          {portofolioData.navigation.map((item) => (
             <a
               key={item.label}
               href={item.href}

@@ -534,14 +534,14 @@ textarea {
   text-transform: lowercase;
 }
 
-/* Giant PORTFOLIO Headline */
-.portfolio-headline-row {
+/* Giant PORTOFOLIO Headline */
+.portofolio-headline-row {
   width: 100%;
   line-height: 0.88;
   margin-bottom: 36px;
 }
 
-.portfolio-headline-text {
+.portofolio-headline-text {
   color: var(--primary-pink);
   font-size: clamp(60px, 12.2vw, 184px);
   font-weight: 800;
@@ -554,20 +554,20 @@ textarea {
   user-select: none;
 }
 
-.portfolio-o-wrapper {
+.portofolio-o-wrapper {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.portfolio-o-hidden {
+.portofolio-o-hidden {
   color: transparent;
   user-select: none;
   pointer-events: none;
 }
 
-.portfolio-o-star {
+.portofolio-o-star {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1727,11 +1727,11 @@ textarea {
     padding: 28px 18px 36px;
   }
 
-  .portfolio-headline-text {
+  .portofolio-headline-text {
     font-size: clamp(38px, 11vw, 56px);
   }
 
-  .portfolio-o-star {
+  .portofolio-o-star {
     width: clamp(36px, 11vw, 52px);
     height: clamp(36px, 11vw, 52px);
   }

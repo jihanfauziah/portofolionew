@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import Starburst from './Starburst';
-import { portfolioData } from '../data/portfolio';
+import { portofolioData } from '../data/portofolio';
 
 export default function Contact() {
-  const { contact } = portfolioData;
+  const { contact } = portofolioData;
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
 

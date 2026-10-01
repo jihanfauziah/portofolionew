@@ -1,10 +1,10 @@
 'use client';
 
 import Starburst from './Starburst';
-import { portfolioData } from '../data/portfolio';
+import { portofolioData } from '../data/portofolio';
 
 export default function Hero() {
-  const { personal } = portfolioData;
+  const { personal } = portofolioData;
 
   return (
     <section id="top" className="hero-section">
@@ -30,18 +30,18 @@ export default function Hero() {
       <div className="hero-center-content">
         <p className="hero-tagline">{personal.tagline}</p>
 
-        {/* Giant PORTFOLIO Headline with Starburst O */}
-        <div className="portfolio-headline-row">
-          <h1 className="portfolio-headline-text">
-            <span>PORTFOLI</span>
-            <span className="portfolio-o-wrapper">
-              <span className="portfolio-o-hidden">O</span>
+        {/* Giant PORTOFOLIO Headline with Starburst O */}
+        <div className="portofolio-headline-row">
+          <h1 className="portofolio-headline-text">
+            <span>PORTOFOLI</span>
+            <span className="portofolio-o-wrapper">
+              <span className="portofolio-o-hidden">O</span>
               <Starburst
                 size={180}
                 color="var(--primary-green)"
                 spikes={22}
                 innerRatio={0.28}
-                className="portfolio-o-star"
+                className="portofolio-o-star"
               />
             </span>
           </h1>
@@ -99,7 +99,7 @@ export default function Hero() {
         <div className="hero-bottom-left">
           <span className="hero-bottom-micro">see more of my work</span>
           <a
-            href={portfolioData.contact.instagram}
+            href={portofolioData.contact.instagram}
             target="_blank"
             rel="noopener noreferrer"
             className="hero-bottom-handle"

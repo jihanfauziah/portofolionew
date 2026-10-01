@@ -1,4 +1,4 @@
-export const portfolioData = {
+export const portofolioData = {
   personal: {
     name: "Jihan Fauziah",
     shortName: "Jihan",
@@ -6,12 +6,12 @@ export const portfolioData = {
     profileImage: "/images/jihan-profile.jpg",
     role: "Junior Web Developer / Software Developer",
     education: "SMK Rekayasa Perangkat Lunak",
-    yearRange: "portfolio 2024–2026",
+    yearRange: "portofolio 2024–2026",
     socialHandle: "@jihaanfauziah_",
     tagline: "an ordinary piece of work, done out of necessity and intention",
     startIdea: "the start, the idea was simple.",
     heroBio:
-      "Saya seorang siswa SMK Rekayasa Perangkat Lunak yang tertarik pada pengembangan website modern menggunakan JavaScript, React, dan Next.js. Saya senang membangun website yang clean, responsive, dan memiliki pengalaman pengguna yang baik.",
+      "Saya seorang siswa SMK Negeri 1 Cianjur dengan Jurusan Rekayasa Perangkat Lunak yang tertarik pada pengembangan website modern menggunakan JavaScript, React, dan Next.js. Saya senang membangun website yang clean, responsive, dan memiliki pengalaman pengguna yang baik.",
     aboutBio:
       "Hi, I'm Jihan. I'm a Software Engineering student who enjoys building digital products and exploring modern web technologies. I focus on creating responsive, clean, and user-friendly interfaces while continuously improving my development skills.",
     highlights: [
@@ -33,7 +33,7 @@ export const portfolioData = {
       },
       {
         role: "Software Engineering Student",
-        period: "SMK PPLG / RPL",
+        period: "SMK Negeri 1 Cianjur, Jurusan PPLG / RPL",
         description: "Mempelajari algoritma pemrograman, database, dan arsitektur web.",
       },
     ],

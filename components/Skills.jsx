@@ -1,10 +1,10 @@
 'use client';
 
 import Starburst from './Starburst';
-import { portfolioData } from '../data/portfolio';
+import { portofolioData } from '../data/portofolio';
 
 export default function Skills() {
-  const { categories } = portfolioData.skills;
+  const { categories } = portofolioData.skills;
 
   return (
     <section id="skills" className="section-container skills-section">
