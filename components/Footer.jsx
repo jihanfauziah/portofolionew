@@ -1,7 +1,7 @@
 'use client';
 
 import Starburst from './Starburst';
-import { portofolioData } from '../data/portofolio';
+import { portofolioData } from '../data/portfolio';
 
 export default function Footer() {
   const { personal, contact, footer } = portofolioData;

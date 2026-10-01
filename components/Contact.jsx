@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Starburst from './Starburst';
-import { portofolioData } from '../data/portofolio';
+import { portofolioData } from '../data/portfolio';
 
 export default function Contact() {
   const { contact } = portofolioData;

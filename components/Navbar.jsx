@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Starburst from './Starburst';
-import { portofolioData } from '../data/portofolio';
+import { portofolioData } from '../data/portfolio';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
